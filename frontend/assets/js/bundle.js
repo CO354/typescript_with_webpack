@@ -81,45 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/A0018-webpack/index.ts");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/A0019-exercicio/A0019-exercicio.ts");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/A0018-webpack/index.ts":
-/*!************************************!*\
-  !*** ./src/A0018-webpack/index.ts ***!
-  \************************************/
+/***/ "./src/A0019-exercicio/A0019-exercicio.ts":
+/*!************************************************!*\
+  !*** ./src/A0019-exercicio/A0019-exercicio.ts ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var mod_1 = __importDefault(__webpack_require__(/*! ./mod */ "./src/A0018-webpack/mod.ts"));
-mod_1.default();
-console.log('Estou escutando com o webpack');
-
-
-/***/ }),
-
-/***/ "./src/A0018-webpack/mod.ts":
-/*!**********************************!*\
-  !*** ./src/A0018-webpack/mod.ts ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = (function () {
-    console.log('Sou o módulo.');
-    console.log('Ligado com uma coisa');
-});
 
 
 /***/ })
