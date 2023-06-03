@@ -1,30 +1,61 @@
 /* eslint-disable */
 
-// Tipos básicos (aqui ocorre inferência de tipos)
-let nome: string = 'Luiz'; // Qualquer tipo de strings: '' "" ``
-let idade: number = 0b1010; // 10, 1.57, -5.55, 0xf00d, 0b1010, 0o7744
-let adulto: boolean = true; // true ou false
-let simbolo: symbol = Symbol('qualquer-symbol'); // symbol
-// let big: bigint = 10n; // bigint
+let nome: string = 'Luiz';
+let idade: number = 54;
+let adulto: true;
 
-// Arrays
-let arrayDeNumeros: Array<number> = [1, 2, 3];
-let arrayDeNumeros2: number[] = [1, 2, 3];
-let arrayDeStrings: Array<string> = ['a', 'b'];
-let arrayDeStrings2: string[] = ['a', 'b'];
+let simbolo: symbol = Symbol('Tudo conhect?')
 
-// Objetos
-let pessoa: {nome: string, idade: number, adulto?: boolean} = {
-  idade: 30,
-  nome: 'Luiz'
-};
 
-// Funções
-function soma(x: number, y: number): number {
-  return x + y;
+//Arrays
+
+let arrayDeNumeros: Array<number> = [1,2,3,4,];
+let arrayDeString: Array<string> = ['a','2','c','d',];
+
+let arrayNumbers: number[] = [1,2,3,4,5,7];
+
+let arryasString: string[] = ['2', '4']
+
+ // Objectos
+let dadosPessoal: {nome: string, idade: string, adulto?: boolean} = {
+    nome: 'Hernesto',
+    idade: '4458',
 }
-const soma2: (x: number, y: number) => number = (x, y) => x + y;
 
-// Module mode
-export default 1;
+
+// FUNCOES+
+
+
+function soma(x: number, y: number): number{
+return x + y;
+}
+
+
+
+ const nnonesObject: {
+    nome: string,
+    sobrenome: string,
+    [key: string]: unknown,
+} = {
+    nome: 'sdfsa',
+    sobrenome: '2312',
+
+}
+
+const ob1 = {
+    salario: 2312
+}
+const ob2 = {
+    salario: 2321
+}
+
+
+
+
+
+const tarefas: Array<string> = ['2w','wq']
+const objects: {nome: number, sigla: number} = {
+    nome: 31,
+    sigla: 21
+}
 
