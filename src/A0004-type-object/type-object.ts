@@ -1,14 +1,10 @@
 const objectA: {
-   readonly chaveA: string;
-     chaveB: string;
-    [key: string]: unknown;
+  readonly chaveA: string;
+  chaveB: string;
+  [key: string]: unknown;
 } = {
-    chaveA: 'A',
-    chaveB: 'C',
+  chaveA: 'A',
+  chaveB: 'C',
+};
 
-}
-
-console.log(objectA.chaveA)
-
-
-
+console.log(objectA.chaveA);
